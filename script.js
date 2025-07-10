@@ -15,8 +15,9 @@ function convertirTemperatura() {
   const kelvin = celsius + 273.15;
 
   resultados.innerHTML = `
-    <p>${celsius} °C = ${fahrenheit.toFixed(2)} °F</p>
-    <p>${celsius} °C = ${kelvin.toFixed(2)} K</p>
+    <p>${celsius} °C = ${kelvin.toFixed(2)} Grados Kelvin</p>
+    <p>${celsius} °C = ${fahrenheit.toFixed(2)} Grados Fahrenheit</p>
+   
   `;
 
   console.log(`${celsius} °C = ${fahrenheit.toFixed(2)} °F`);
